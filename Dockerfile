@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.2.2
+ENV VERSION=0.1.1
 
 RUN gem install 3scale_toolbox --version ${VERSION} --no-format-exec
 
